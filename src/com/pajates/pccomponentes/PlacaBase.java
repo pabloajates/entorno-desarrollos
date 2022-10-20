@@ -1,50 +1,50 @@
 package com.pajates.pccomponentes;
 
-public class Placabase {
-    private Integer Id;
+public class PlacaBase {
+    private Integer id;
 
-    private String Marca;
+    private String marca;
 
-    private String Modelo;
+    private String modelo;
 
-    private String Size;
+    private String size;
 
 
     public Integer getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Integer id) {
-        this.Id = id;
+        this.id = id;
     }
 
     public String getMarca() {
 
-        return Marca;
+        return marca;
     }
 
     public void setMarca(String marca) {
 
-        this.Marca = marca;
+        this.marca = marca;
     }
 
     public String getModelo() {
 
-        return Modelo;
+        return modelo;
     }
 
     public void setModelo(String marca) {
 
-        this.Modelo = marca;
+        this.modelo = modelo;
     }
 
     public String getSize() {
 
-        return Size;
+        return size;
     }
 
     public void setSize(String marca) {
 
-        this.Size = marca;
+        this.size = marca;
     }
 }

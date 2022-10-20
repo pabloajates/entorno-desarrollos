@@ -1,11 +1,12 @@
 package com.pajates.pccomponentes;
 
-public class Tarjetagrafica {
+public class PowerSupply {
 
     private Integer id;
+
     private String marca;
-    private String modelo;
-    private String gbram;
+
+    private String potencia;
 
     public Integer getId() {
         return id;
@@ -16,27 +17,19 @@ public class Tarjetagrafica {
     }
 
     public String getMarca() {
-
         return marca;
     }
 
     public void setMarca(String marca) {
-
         this.marca = marca;
     }
 
-    public String getModelo() {
-
-        return modelo;
+    public String getPotencia() {
+        return potencia;
     }
 
-    public void setModelo(String marca) {
-
-        this.modelo = marca;
+    public void setPotencia(String potencia) {
+        this.potencia = potencia;
     }
+}
 
-    public String getGbram() {
-        return gbram;
-    }
-
-    }

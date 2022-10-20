@@ -15,11 +15,11 @@ public class Procesador {
     /**
      * Metodos, funciones, comportamiento
      */
-    public Integer getid(){
+    public Integer getId(){
     return id;
     }
 
-    public void  setid(Integer id){
+    public void  setId(Integer id){
         this.id = id;
     }
 
